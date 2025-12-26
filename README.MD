@@ -1,12 +1,23 @@
 # Phone Arena Scraper
 
-This repo is dedicated for scraping phone specifications from [Phone Arena](https://www.phonearena.com/). The main script `src.py` extracts detailed information about various phone models and saves it in a structured format.
+This repo is dedicated for scraping phone specifications from [Phone Arena](https://www.phonearena.com/). The scraper extracts detailed information about various phone models, including their features and specifications.
 
-I've created this project years ago as a personal endeavor to gather phone specs for analysis. But yeah, gonna release it publicly now because why not.
+The logic for scraping is implemented in the `coreLogicDebug.ipynb` file, which contains the main scraping functions and methods.
 
-Scraped data as of 25 December 2025 is available as either `DATA/all.json` or `DATA/all.csv` in the root directory.
+All the available phone specifications as in DEC 2025 can be found in the `DATA/` directory.
 
-Please abide by Phone Arena's robots.txt[https://www.phonearena.com/robots.txt] and terms of service when using this scraper.
+## Getting Started
+To get started with the Phone Arena Scraper, follow these steps:
+1. Clone the repository to your local machine.
+2. Navigate to the project directory.
+3. Install the required dependencies using pip:
+   ```
+   pip install -r requirements.txt
+   ```
+4. Open the `coreLogicDebug.ipynb` file in Jupyter Notebook to explore the scraping logic.
+5. Edit the cells as needed and run them to execute the scraping functions and extract phone specifications.
 
-## Features
-TBA, too lazy atm
+OR
+
+1. APP based of this scraper can be found here [Phone Specs Scraper App](https://github.com/Rheyhan/Phone-Arena-Scraper/releases/tag/RELEASE)
+2. Download the executable file and run it on your machine.
